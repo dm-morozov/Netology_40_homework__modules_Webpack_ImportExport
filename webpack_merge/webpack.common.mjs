@@ -1,0 +1,1 @@
+// webpack.common.mjs       # Общая конфигурация Webpack
