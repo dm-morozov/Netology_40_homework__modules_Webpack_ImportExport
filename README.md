@@ -10,7 +10,7 @@
 
 ---
 
-## [Webpack](/1.Webpack/README.md)
+## [Webpack](/1.Webpack/)
 
 ### Легенда
 
@@ -34,7 +34,7 @@
 
 ---
 
-## [Import/Export](/2.ImportExport/README.md)
+## [Import/Export](/2.ImportExport/)
 
 ### Легенда
 
