@@ -1,0 +1,26 @@
+{
+  "name": "netology_40_homework_for_the_lecture_modules",
+  "version": "1.0.0",
+  "description": "Homework for the lecture ‘Modules’",
+  "keywords": [
+    "homework",
+    "modules",
+    "webpack",
+    "netology"
+  ],
+  "homepage": "https://github.com/dm-morozov/Netology_40_homework_for_the_lecture_modules#readme",
+  "bugs": {
+    "url": "https://github.com/dm-morozov/Netology_40_homework_for_the_lecture_modules/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dm-morozov/Netology_40_homework_for_the_lecture_modules.git"
+  },
+  "license": "ISC",
+  "author": "dm-morozov",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
