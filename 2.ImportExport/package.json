@@ -1,12 +1,13 @@
 {
-  "name": "netology_40_homework_for_the_lecture_modules",
+  "name": "2.importexport",
   "version": "1.0.0",
-  "description": "Homework for the lecture ‘Modules’",
+  "description": "Homework for the lecture \"Modules\": Import/Export example",
   "keywords": [
     "homework",
+    "netology",
     "modules",
-    "webpack",
-    "netology"
+    "import",
+    "export"
   ],
   "homepage": "https://github.com/dm-morozov/Netology_40_homework__modules_Webpack_ImportExport#readme",
   "bugs": {
@@ -22,22 +23,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
     "dev": "webpack serve --env development",
     "build": "webpack --env production"
   },
   "devDependencies": {
-    "@eslint/js": "^9.24.0",
     "css-loader": "^7.1.2",
-    "eslint": "^9.24.0",
-    "globals": "^16.0.0",
     "html-webpack-plugin": "^5.6.3",
     "mini-css-extract-plugin": "^2.9.2",
     "style-loader": "^4.0.0",
     "webpack": "^5.99.5",
     "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.1",
-    "webpack-merge": "^6.0.1"
+    "webpack-dev-server": "^5.2.1"
   }
 }

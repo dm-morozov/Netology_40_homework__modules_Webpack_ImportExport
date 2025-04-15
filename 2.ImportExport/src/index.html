@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание по модулям Import/Export</title>
+</head>
+<body>
+    <h1>Import/Export</h1>
+    <h2>Легенда</h2>
+    <p>Вы успешно настроили загрузку модулей с Webpack и сборку приложения. Пришло время всё грамотно разделить на модули!</p>
+    <h2>Описание</h2>
+    <p>Разделите всё приложение на модули:</p>
+    <ol>
+        <li>Модуль Domain - где будет храниться логика предметной области (персонажи, атаки и т.д.)</li>
+        <li>Модуль Game - отвечающий за работу приложения (загрузку и сохранение)</li>
+        <li>Модуль App - отвечающий за запуск приложения</li>
+    </ol>
+    <h3>Заглушки для модулей:</h3>
+    <p>файл <code>domain.js</code>:</p>
+    <pre><code>class Character {
+}
+</code></pre>
+    <p>файл <code>game.js</code></p>
+    <pre><code>class Game {
+  start() {
+    console.log('game started');
+  }
+}
+
+class GameSavingData {
+}
+
+function readGameSaving() {
+}
+
+function writeGameSaving() {
+}
+</code></pre>
+    <p>файл <code>app.js</code></p>
+    <pre><code>const game = new Game();
+game.start();
+</code></pre>
+    <h3>Организуйте:</h3>
+    <ol>
+        <li>Из модуля <code>domain</code> экспорт класса <code>Character</code> в качестве <code>default</code>'ного</li>
+        <li>В модуле <code>game</code> импорт класса <code>Character</code></li>
+        <li>Экспорт из модуля <code>game</code> класса <code>Game</code> в качестве дефолтного, класса <code>GameSavingData</code> и функций <code>readGameSaving</code> и <code>writeGameSaving</code></li>
+        <li>В модуле <code>app.js</code> одним импортом импортируйте <code>Game</code>, <code>GameSavingData</code> и функции <code>readGameSaving</code>, <code>writeGameSaving</code> (их при импорте переименуйте в <code>loadGame</code> и <code>saveGame</code> соответственно)</li>
+    </ol>
+    <p>С самими функциями и классами ничего делать не нужно, нужно только правильно расставить инструкции <code>import</code>/<code>export</code>.</p>
+</body>
+</html>
